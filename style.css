@@ -1,0 +1,297 @@
+h1
+{    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;  
+    border: 5px solid black;
+    padding: 2px;
+    color: black;
+}
+
+.mainpageh2
+{
+text-align: center;
+border: 2px solid darkblue;
+background-color: #fefbd8;
+padding: 2px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.left
+{
+    text-align: left;
+}
+.right
+{
+    text-align: right;
+}
+.center
+{
+    text-align: center;
+}
+.pagesh2
+{
+    text-align: center;
+    background-color: beige;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb (255, 255, 255)
+}
+h5 {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}
+h3 {
+    text-align: center;
+}
+
+.homebutton
+{
+    background-color : #CBF3F0;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-container {
+   /* Replace with your image path */
+  background-size: cover; /* Scales the image to cover the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 200px; /* Set a height for your banner */
+  /* Add other styling for content positioning, padding, etc. */
+  display: flex; /* Example for centering content */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.banner-contact {
+  background-color: #2EC4B6; /* Replace with your image path */
+  background-size: cover; /* Scales the image to cover the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 80px; /* Set a height for your banner */
+  /* Add other styling for content positioning, padding, etc. */
+  display: flex; /* Example for centering content */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top : 40px;
+  margin: auto;
+}
+.parent-containercontact {
+        display: flex;
+        color: black;
+        border-radius: 15px;
+        box-decoration-break: clone; 
+        padding: 5px 10px;
+        column-gap: 35px;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+.parent-container{
+        display: flex;
+        color: black;
+        border-radius: 15px;
+        box-decoration-break: clone;
+        padding: 5px 10px;
+        column-gap: 74px;
+        justify-content: center;
+
+        
+
+       
+    }
+.image {
+    width:100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image img{
+
+    height: 100px;
+    width: 100px;
+    border: solid black;
+    border-radius: 50%;
+}
+.centerp{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.buttonhome{
+    background-color: #CBF3F0;;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.3s;
+    justify-content: center;
+    display: flex;
+    
+
+
+}
+.buttonhome:hover{
+    background-color: #91f1ea;
+    transform: scale(1.15);
+}
+.btn {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.projectback {
+background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 200px; /* Set a height for your banner */
+  /* Add other styling for content positioning, padding, etc. */
+  display: flex; /* Example for centering content */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+
+}
+
+.imgmain {
+    height: 240px;
+    width : 330px;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: all 0.3s;
+    object-fit: cover;
+    border : solid black;
+
+
+}
+
+.imgmain:hover {
+    opacity : 1.0;
+    transform: scale (1.5);
+}
+.imgmain2 {
+    height: 280px;
+    width : 220px;
+    opacity: 0.7;
+    border-radius: 10px;
+    border : solid black;
+    transition: all 0.3s;
+    object-fit: cover;
+
+}
+
+.imgmain2:hover {
+    opacity : 1.0;
+    transform: scale (1.5);
+}
+
+.resume {
+    height : 1177px;
+    width : 900px;
+}
+
+.paraimg {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 191, 105,0.8) ;
+    font-size : 12pt 
+}
+
+h5 {
+    background-color: #FFFFFF;
+    text-align: center;
+    color : black;
+    font-weight: bold;
+}
+
+.paraimg2 {
+    background-color: rgb(255, 191, 105,0.8);    
+    margin-left: 200px;
+    padding : 20px;
+}
+
+.paraimg3 {
+    background-color: rgb(255, 191, 105,0.8);    
+    padding : 20px;
+}
+
+.banner-contact2 {
+  background-color: #CBF3F0; /* Replace with your image path */
+  background-size: cover; /* Scales the image to cover the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 30px; /* Set a height for your banner */
+  /* Add other styling for content positioning, padding, etc. */
+  display: flex; /* Example for centering content */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    margin: auto;
+}
+
+.parent-containercontact2 {
+        display: flex;
+        color: black;
+        border-radius: 15px;
+        box-decoration-break: clone; 
+        padding: 1px 5px;
+        column-gap: 35px;
+        justify-content: center;
+        padding: 2px;
+        font-size: 10pt;
+        font-style: italic ;
+}
+.woah3 {
+    background-color: #FF9F1C;
+    justify-content: center;  
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius : 15px;
+}
+
+.imgmain3 {
+    height: 240px;
+    width : 290px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    object-fit: cover;
+    border : solid black;
+
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
